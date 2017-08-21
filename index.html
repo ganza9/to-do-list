@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <meta charset="utf-8">
+    <title>To-Do</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="jumbotron">To-Do List</h1>
+        <form id="task-list">
+          <div class="form-group">
+            <label for="firstTask">First Task:</label>
+            <input type="text" id="first-task">
+          </div>
+
+          <div class="form-group">
+            <label for="secondTask">Second Task:</label>
+            <input type="text" id="second-task">
+          </div>
+
+          <div class="form-group">
+            <label for="thirdTask">Third Task:</label>
+            <input type="text" id="third-task">
+          </div>
+
+
+          <button type="submit" name="button">Enter</button>
+        </form>
+
+        <h2>Tasks:</h2>
+        <ul id="tasks">
+        </ul>
+
+    </div>
+  </body>
+</html>
